@@ -262,7 +262,7 @@ const FooterSection = () => {
             className="relative mt-5 inline-block cursor-pointer md:mt-6 4xl:mt-10 5xl:mt-14"
             onMouseEnter={handleBtnEnter}
             onMouseLeave={handleBtnLeave}
-            onClick={() => { window.location.href = "mailto:eashan@aydus.co"; }}
+            onClick={() => { window.location.href = "mailto:jordan.feldman@patternx.co"; }}
             style={{ opacity: 0 }}
           >
             {/* Corner brackets — positioned via top/left/right/bottom, animated via transform only */}
@@ -295,7 +295,7 @@ const FooterSection = () => {
                 <div className="flex items-center gap-1">
                   <img src="/svgs/Viral-Labs-logo.svg" alt="Viral Labs" className="h-6 w-6" draggable={false} />
                   <span className="font-bricolage text-2xl font-semibold tracking-tight text-white whitespace-nowrap">
-                    Viral Labs
+                    Patternx
                   </span>
                 </div>
                 <span className="font-host text-xs font-thin text-white/50">
@@ -348,7 +348,7 @@ const FooterSection = () => {
                   Privacy Policy
                 </a>
                 <span className="font-host text-xs font-thin text-white/40">
-                  © Copyright 2026 Viral Labs
+                  © Copyright 2026 Patternx
                 </span>
               </div>
             </div>
@@ -385,10 +385,10 @@ const FooterSection = () => {
                 {/* Logo + tagline */}
                 <div className="flex flex-col gap-1">
                   <div className="flex items-center gap-0.5">
-                    <img src="/svgs/Viral-Labs-logo.svg" alt="Viral Labs" className="h-5 w-5 2xl:h-6 2xl:w-6 4xl:h-9 4xl:w-9 5xl:h-14 5xl:w-14" draggable={false} />
-                    <span ref={logoNameRef} className="font-bricolage text-3xl max-mob:text-2xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl 3xl:text-4xl 4xl:text-6xl 5xl:text-[5rem] font-semibold tracking-tight text-white whitespace-nowrap">
-                      Viral Labs
-                    </span>
+                    <img src="/svgs/patternx.svg" alt="Viral Labs" className="w-32 2xl:w-36 4xl:w-40 5xl:w-44" draggable={false} />
+                    {/* <span ref={logoNameRef} className="font-bricolage text-3xl max-mob:text-2xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl 3xl:text-4xl 4xl:text-6xl 5xl:text-[5rem] font-semibold tracking-tight text-white whitespace-nowrap">
+                      Patternx
+                    </span> */}
                   </div>
                   <span ref={taglineRef} className="font-host text-xs md:text-[0.6rem] md:text-center lg:text-[0.65rem] xl:text-xs 2xl:text-sm 3xl:text-base 4xl:text-lg 5xl:text-2xl font-thin text-white/50 lg:text-left">
                     Engineering Distribution
