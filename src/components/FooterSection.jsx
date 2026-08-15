@@ -323,8 +323,8 @@ const FooterSection = () => {
               {/* Socials */}
               <div className="flex items-center gap-5">
                 {[
-                  { key: "x", href: "https://x.com/EashanShetty", label: "X" },
-                  { key: "in", href: "https://www.linkedin.com/company/virallabs/", label: "In" },
+                  { key: "x", href: "https://x.com/patternx_", label: "X" },
+                  { key: "in", href: "https://www.linkedin.com/company/pattern-x/", label: "In" },
                 ].map(({ key, href, label }) => (
                   <a
                     key={key}
