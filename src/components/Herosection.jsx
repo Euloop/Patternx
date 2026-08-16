@@ -496,7 +496,7 @@ export default function HeroSection() {
                   ref={headingRef}
                   className="hero-heading font-bricolage font-medium text-left md:text-center mb-4 max-mob:mb-[2rem] mob:mb-[1.5rem] md:mb-[1rem] lg:mb-[1.2rem] xl:mb-[1.4rem] 2xl:mb-[1.5rem] 3xl:mb-[2rem] 4xl:mb-[2.5rem] 5xl:mb-[3rem] tracking-normal max-w-[80%] max-mob:max-w-[90%] md:max-w-none"
                   style={{
-                    fontSize: "clamp(70px, 5.2vw, 110px)",
+                    fontSize: "clamp(40px, 4vw, 110px)",
                     lineHeight: 0.95,
                   }}
                 >

@@ -564,7 +564,7 @@ export default function Navbar({ entranceDelay = 0.3 }) {
               ref={logoTextRef}
               className="inline-flex items-center pr-1"
             >
-              <ViralLabsWordmark className="h-3 md:h-[0.85rem] 4xl:h-4 5xl:h-6 w-auto" />
+              <ViralLabsWordmark className="w-10 md:w-[6rem] 4xl:w-3 5xl:w-4 h-auto" />
             </span>
           </a>
 
@@ -601,8 +601,9 @@ export default function Navbar({ entranceDelay = 0.3 }) {
             <div className="relative inline-flex items-center justify-center py-0">
             <a
               ref={ctaItemRef}
-              href="#go-viral"
+              href="mailto:jordan.feldman@patternx.co"
               className="nav-cta-item inline-flex items-center justify-center gap-2"
+              aria-label="Email jordan.feldman@patternx.co"
             >
               <span className="cta-text-shift">
                 <span className="text-clip">
@@ -611,7 +612,7 @@ export default function Navbar({ entranceDelay = 0.3 }) {
                       className="font-bricolage font-thin text-white text-sm 4xl:text-base 5xl:text-xl text-center tracking-[-0.56px] leading-none"
                       style={fontStyle}
                     >
-                      <CharSpans text="Build Your Engine" />
+                      <CharSpans text="Contact Us" />
                     </span>
                   </span>
                 </span>

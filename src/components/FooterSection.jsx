@@ -426,8 +426,8 @@ const FooterSection = () => {
                   {/* Social icons — hidden on mobile */}
                   <div ref={socialsRef} className="hidden md:flex items-center gap-8 lg:max-xl:ml-6 xl:ml-8 2xl:ml-10 3xl:ml-14 4xl:ml-20 5xl:ml-32 4xl:gap-14 5xl:gap-18" style={{ opacity: 0 }}>
                     {[
-                      { key: "x", href: "https://x.com/EashanShetty", content: <span className="font-host text-xs 4xl:text-base 5xl:text-4xl font-thin text-white transition-colors duration-200">X</span> },
-                      { key: "in", href: "https://www.linkedin.com/company/virallabs/", content: <span className="font-host text-xs 4xl:text-base 5xl:text-4xl font-thin text-white transition-colors duration-200">In</span> },
+                      { key: "x", href: "https://x.com/patternx_", content: <span className="font-host text-xs 4xl:text-base 5xl:text-4xl font-thin text-white transition-colors duration-200">X</span> },
+                      { key: "in", href: "https://www.linkedin.com/company/pattern-x/", content: <span className="font-host text-xs 4xl:text-base 5xl:text-4xl font-thin text-white transition-colors duration-200">In</span> },
                     ].map(({ key, href, content }) => (
                       <a
                         key={key}
@@ -453,7 +453,7 @@ const FooterSection = () => {
           {/* ═══ COPYRIGHT ═══ */}
           <div className="order-4 md:order-none col-span-2 md:col-span-1 mx-auto flex flex-col md:flex-row w-full max-w-4xl md:max-w-md lg:max-w-2xl xl:max-w-2xl 2xl:max-w-4xl 3xl:max-w-[80rem] 4xl:max-w-[100rem] 5xl:max-w-[155rem] items-start md:items-center md:justify-between gap-1 md:gap-0 py-6 max-mob:py-4 md:py-2 lg:py-3 xl:py-4 2xl:py-5 3xl:py-6 4xl:py-8 5xl:py-12">
             <span ref={copyLeftRef} className="font-host text-xs 2xl:text-sm 3xl:text-sm 4xl:text-lg 5xl:text-3xl font-thin text-white/40">
-              © Copyright 2026 Viral Labs
+              © Copyright 2026 Patternx
             </span>
             <a ref={copyRightRef} href="#" className="font-host text-xs 2xl:text-sm 3xl:text-sm 4xl:text-lg 5xl:text-3xl font-thin text-white/40 transition-colors duration-200 hover:text-white/70">
               Privacy Policy
