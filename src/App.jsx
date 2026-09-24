@@ -40,10 +40,10 @@ const App = () => {
 
   useEffect(() => {
     const lenis = new Lenis({
-      lerp: IS_MOBILE ? 0.15 : 0.1,
+      lerp: IS_MOBILE ? 0.15 : 0.12,
       duration: IS_MOBILE ? 0.8 : 1.2,
       smoothWheel: true,
-      wheelMultiplier: 1.0,
+      wheelMultiplier: 1.5,
       touchMultiplier: IS_MOBILE ? 1.4 : 1.8,
     });
     lenisRef.current = lenis;
